@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  background-color: burlywood;
+  font-size: 62.5%;
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  background-color: rgb(255, 222, 173);
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+header img{
+  width: 11.5rem;
+  height: 11.5rem;
+  border-radius: 12rem;
+  float: left;
+  margin-left: 5rem;
+}
+
+header h1{
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 6rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header nav{
+  margin-top: 2rem;
+  padding-left: 3rem;
+}
+
+ul.listaprincipio li{
+  font-size: 2rem;
+  display: inline;
+  margin: 0.5rem;
+  padding-left: 1rem;
+  text-align: center;
+}
+
+
+.primeraSecM{
+  background-color: rgb(255, 198, 157);
+  text-align: center;
+  padding: 0.7rem;
+  display: flex;
+  float: left;
+}
+
+section ul.foticas li img{
+  margin: auto;
+  height: 9.5rem;
+  width: 14rem;
+  border-radius: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+#video-home {  
+  width: 100%;
+  height: 40rem;
+  min-height: 40rem;
+}  
+
+.index-fluid{
+  padding :0px;
+  /* position: relative; */
+  bottom:0;
+  overflow: hidden;
+  margin: 0;
+}
+
+#losForms{
+  display: block;
+}
+
+#losForms{
+  background-color: rgb(227, 227, 197);
+}
+
+#losForms h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+#losForms label{
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+#losForms input{
+  border-radius: 2rem;
+  background-color: rgb(179, 177, 177);
+}
+
+#losForms .be{
+  background-color: rgb(174, 174, 174);
+  border: solid black 1px;
+  border-radius: 2rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+footer{
+  
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer section.redesSoc h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  padding-bottom: 2rem;
+}
+
+figure{
+  padding-left: 1rem;
+}
+

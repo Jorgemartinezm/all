@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto cool</title>
+    <meta name="description" content="Esta es una página web que he hecho usando todo lo que se de Html y CSS">
+    <meta name="keywords" content="sencillo, inspiración, primer proyecto, html y css">
+    <meta name="author" content="Jorge Martínez">
+
+    <link rel="stylesheet"
+    href="./movil.css"
+    />
+    <link rel="stylesheet" 
+    href="./tablet.css" media="screen and (min-width:600px)"
+    />
+    <link rel="stylesheet" 
+    href="./pc.css"
+    media="screen and (min-width: 800px)"
+    />
+  </head>
+
+  <body>
+
+    <header>
+      <section>
+        <img src="./0logo.jpg" alt="Esta imagen es el logo, un gorila que está siendo atacando por unos aviones, la imagen está en un neon violeta">
+        <h1>Proyecto COOL</h1>
+      </section>
+      <nav>
+        <ul class="listaprincipio">
+          <li>Inicio</li>
+          <li>Noticias</li>
+          <li>Blog</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="primeraSecM">
+        <ul class="foticas">
+          <li class="box1"><img src="./1foto.jpg" alt="Foto de ciudad"></li>
+          <li class="box2"><img src="./2foto.jpg" alt="Foto de ciudad"></li>
+          <li class="box3"><img src="./3foto.jpg" alt="Foto de ciudad"></li>
+          <li class="box4"><img src="./4foto.jpg" alt="Foto de ciudad"></li>
+        </ul>
+      </section>
+    
+      <div class="index-fluid">
+        <video controls id="video-home" autoplay="autoplay" poster="img/index-video-poster.png" loop>
+          <source src="./video.mp4" type="video/mp4"></source>
+        </video>
+      </div>    
+
+      <section id="losForms">
+        <h1>¿Aún no eres usuario?, registrate</h1>
+        <form action="">
+          <label for="" id="nombreV"><span>Nobre de usuario </span><input type="text"></label>
+          <label for="" id="correoE"><span>Tu correo elctrónico </span><input type="email"></label>
+          <label for="" id="contraseña"><span>Tu contraseña </span><input type="password"></label>
+          <label for="" id="telefonoN"><span>Número de teléfono </span><input type="tel"></label>
+          <input class="be" type="submit" name="botonE" id="botonE">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section class="redesSoc">
+        <h1>Nuestras redes sociales</h1>
+        <figure>
+          <a id="redS1" href="https://es-es.facebook.com/"><img src="./logoFac.png" alt="Es el logo de facebook" width="100" height="100"></a>
+          <a id="redS2" href="https://github.com/"><img src="./logoGit.png" alt="Es el logo de github" width="85" height="85"></a>
+          <a id="redS3" href="https://www.instagram.com/"><img src="./logoIns.png" alt="Es el logo de instagram" width="80" height="80"></a>
+          <a id="redS4" href="https://twitter.com/"><img src="./logoTwi.png" alt="Es el logo de twitter" width="100" height="100"></a>
+          <a id="redS5" href="https://www.youtube.com/"><img src="./logoYou.png" alt="Es el logo de youtube" width="125" height="100"></a>
+        </figure>
+      </section>
+
+    </footer>
+
+  </body>
+</html>
